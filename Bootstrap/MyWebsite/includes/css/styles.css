@@ -1,0 +1,269 @@
+/*
+
+My Custom CSS
+=============
+*/
+
+
+/* --------------------------------------
+   Layout
+   -------------------------------------- */
+
+#features {
+    text-align: center;
+}
+
+#features img {
+    margin: 0 0 20px;
+}
+
+#inputMessage {
+    margin-bottom: 15px;
+}
+
+footer {
+    background: #333;
+    color: #eee;
+    font-size: 11px;
+    padding: 20px;
+}
+
+.lead {
+    color: white;
+}
+
+.panel-heading {
+    background: #f16524;
+}
+
+.tab-content {
+    color: white;
+}
+
+.nav-tabs>li.active>a {
+    color: #f16524;
+}
+
+.nav-tabs>li>a {
+    color: white;
+}
+
+.nav-tabs>li>a:hover {
+    background: #f16524;
+}
+
+.list-group-item-text {
+    color: white;
+}
+
+
+/*.navbar-default > .navbar-nav > .active > a{
+   background: #f16524;
+}*/
+
+
+/*--------------------------------------
+   Typography
+   -------------------------------------- */
+
+ul.unstyled {
+    list-style: none;
+    padding: 0;
+}
+
+
+/* --------------------------------------
+   Navbar
+   -------------------------------------- */
+
+#searchInput {
+    width: 200px;
+}
+
+.navbar {
+    height: 80px;
+    background: #1B2A41;
+}
+
+.navbar .container {
+    margin-top: 15px;
+    /*color: white;*/
+}
+
+.navbar .nav > li > a {
+    font-size: 16px;
+    color: #f16524;
+}
+
+.navbar .nav > li.active > a {
+    color: #fff;
+    background: #f16524;
+}
+
+.navbar .nav > li > a:hover {
+    color: white;
+}
+
+.for-color {
+    color: #f16524;
+}
+
+.for-color-text{
+    color: white;
+}
+
+.list-group a:hover {
+    background-color: #000080;
+}
+
+.list-group-item-heading {
+    color: white;
+}
+
+.gap {
+    margin-bottom: 10px;
+}
+
+.back {
+    background-color: white;
+}
+
+.navbar{
+    background-color: #1b3341;
+}
+
+/* --------------------------------------
+   Carousel
+   -------------------------------------- */
+
+#heroCarousel .item {
+    height: 502px;
+    margin-top: 75px;
+}
+
+#slide1 {
+    background: url(../../images/titan-fall2_large.jpg) top center no-repeat;
+}
+
+#slide2 {
+    background: url(../../images/destiny_rise_of_iron_large.jpg) top center no-repeat;
+}
+
+#slide3 {
+    background: url(../../images/assisn_large.jpg) top center no-repeat;
+}
+
+
+/* --------------------------------------
+   Global Styles
+   -------------------------------------- */
+
+.tabbable img.thumbnail {
+    margin: 0 20px 10px 0;
+}
+
+.list-group-item {
+    background: #255863;
+}
+
+body {
+    background: url(../../images/skyrim.jpg)fixed;
+}
+
+
+/* --------------------------------------
+   Media Queries
+   -------------------------------------- */
+
+
+/* Portrait & landscape phone */
+
+@media (max-width: 480px) {
+    #heroCarousel .item {
+        height: 202px;
+    }
+    #slide1 {
+        background: url('../../images/titan-fall2_xs.jpg') top center no-repeat;
+    }
+    #slide2 {
+        background: url('../../images/destiny_rise_of_iron_xs.jpg') top center no-repeat;
+    }
+    #slide3 {
+        background: url('../../images/assisn_xs.jpg') top center no-repeat;
+    }
+}
+
+
+/* Landscape phone to portrait tablet */
+
+@media(min-width: 768px) {
+    #features .panel {
+        height: 90%;
+    }
+    #panel1 img {
+        width: 90%;
+    }
+    #panel2 img {
+        width: 90%;
+    }
+    #panel3 img {
+        width: 90%;
+    }
+    #tab1 img {
+        width: 100%;
+    }
+    #tab2 img {
+        width: 100%;
+    }
+}
+
+@media (max-width: 768px) {
+    #heroCarousel .item {
+        height: 310px;
+    }
+    #slide1 {
+        background: url('../../images/titan-fall2_small.jpg') top center no-repeat;
+    }
+    #slide2 {
+        background: url('../../images/destiny_rise_of_iron_small.jpg') top center no-repeat;
+    }
+    #slide3 {
+        background: url('../../images/assisn_small.jpg') top center no-repeat;
+    }
+    .carousel-caption {
+        font-size: 16px;
+    }
+    .carousel-caption h4 {
+        font-size: 22px;
+    }
+    #features .panel {
+        height: 70%;
+    }
+    #panel1 img {
+        width: 70%;
+    }
+    #panel2 img {
+        width: 70%;
+    }
+    #panel3 img {
+        width: 70%;
+    }
+    #tab1 img {
+        width: 100%;
+    }
+    #tab2 img {
+        width: 100%;
+    }
+}
+
+
+/* Large desktop */
+
+@media (min-width: 1200px) {
+    .carousel-caption {
+        font-size: 22px;
+    }
+    .carousel-caption h4 {
+        font-size: 36px;
+    }
+}
